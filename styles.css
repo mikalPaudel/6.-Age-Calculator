@@ -16,8 +16,11 @@
 .calculator{
     width: 100%;
     max-width: 600px;
-    margin-left: 10%;
-    margin-top: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+    text-align: center;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
     padding: 30px;
     border-radius: 10px;
@@ -36,8 +39,6 @@
     align-items: center;
     padding: 5px;
     border-radius: 10px;
-    /* background: rgba(255, 255, 255, 0.3);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2); */
     gap: 20px;
 }
 .input-box input{
@@ -83,7 +84,6 @@
     padding: 20px;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.3);
-    /* box-shadow: 0 5px 15px rgba(0,0,0,0.2); */
     text-align: center;
     font-size: 25px;
     font-weight: 600;
